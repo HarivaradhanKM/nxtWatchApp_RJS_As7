@@ -17,7 +17,7 @@ import {
   GamingVideoList,
   GamingText,
   LoaderContainer,
-} from './styledComponent'
+} from './styledComponents'
 
 const apiStatusConstants = {
   initial: 'INITIAL',

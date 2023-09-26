@@ -7,7 +7,7 @@ import {
   GamingContentSection,
   GamingTitle,
   GamingViewsAndData,
-} from './styledComponent'
+} from './styledComponents'
 
 const VideoCard = props => {
   const {videoDetails} = props

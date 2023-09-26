@@ -4,7 +4,7 @@ import {
   FailedHeading,
   FailedNote,
   RetryButton,
-} from './styledComponent'
+} from './styledComponents'
 
 import ThemeAndVideoCard from '../../context/ThemeAndVideoContext'
 
