@@ -26,7 +26,7 @@ export const FailedNote = styled.p`
   text-align: center;
 `
 
-export const RetryButton = styled.div`
+export const RetryButton = styled.button`
   border: none;
   background-color: #4f46e5;
   border-radius: 3px;

@@ -25,14 +25,14 @@ import {
 } from './styledComponents'
 
 const PlayVideoView = props => {
-  const {videoDetails, isLiked, isDisLiked, clickLiked, clickDisLike} = props
+  const {videoDetails, isLiked, isDisLiked, clickLiked, clickDisLiked} = props
 
   const onClickLike = () => {
     clickLiked()
   }
 
   const onClickDisLike = () => {
-    clickDisLike()
+    clickDisLiked()
   }
 
   return (
@@ -86,7 +86,7 @@ const PlayVideoView = props => {
                     onClick={onClickDisLike}
                   >
                     <AiOutlineDislike size={25} />
-                    <ButtonText>DisLike</ButtonText>
+                    <ButtonText>Dislike</ButtonText>
                   </SocialButton>
                 </BtnContainer>
                 <BtnContainer>

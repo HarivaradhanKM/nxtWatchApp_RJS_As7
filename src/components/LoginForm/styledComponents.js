@@ -30,7 +30,7 @@ export const LoginButton = styled.button`
   border-radius: 5px;
   font: 15px Roboto;
   height: 30px;
-  color: #fff;
+  color: #ffffff;
   margin-top: 20px;
 `
 export const SubmitError = styled.p`

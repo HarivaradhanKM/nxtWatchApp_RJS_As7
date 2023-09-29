@@ -44,7 +44,7 @@ export const ContactInfo = styled.div`
   flex-direction: column;
   padding-left: 20px;
 `
-export const ContactHeading = styled.h1`
+export const ContactHeading = styled.p`
   font: bold 25px Roboto;
   color: ${props => props.color};
 `

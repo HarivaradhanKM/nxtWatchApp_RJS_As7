@@ -89,7 +89,7 @@ class NavigationBar extends Component {
                   </NavLinkContainer>
                 </NavLink>
 
-                <NavLink to="/Saved-videos">
+                <NavLink to="/saved-videos">
                   <NavLinkContainer
                     key="saved"
                     bgColor={activeTab === 'Saved' ? activeTabBg : 'none'}
