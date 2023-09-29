@@ -21,11 +21,11 @@ class App extends Component {
   }
 
   changeTab = tab => {
-    this.seState({activeTab: tab})
+    this.setState({activeTab: tab})
   }
 
   toggleTheme = () => {
-    this.seState(prevState => ({
+    this.setState(prevState => ({
       isDarkTheme: !prevState.isDarkTheme,
     }))
   }
@@ -64,7 +64,7 @@ class App extends Component {
         }}
       >
         <Switch>
-          <Route exact path="login" component={LoginForm} />
+          <Route exact path="/login" component={LoginForm} />
           <ProtectedRoute exact path="/" component={Home} />
           <ProtectedRoute
             exact

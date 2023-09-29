@@ -91,7 +91,7 @@ class TrendingVideos extends Component {
 
   renderFailureView = () => <FailureView onRetry={this.onRetry} />
 
-  renderTrendingVideos = () => {
+  renderTrendingVideo = () => {
     const {apiStatus} = this.state
 
     switch (apiStatus) {

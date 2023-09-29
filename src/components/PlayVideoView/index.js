@@ -38,10 +38,10 @@ const PlayVideoView = props => {
   return (
     <ThemeAndVideoContext.Consumer>
       {value => {
-        const {isDarkTheme, addVideo, savedVideo} = value
+        const {isDarkTheme, addVideo, savedVideos} = value
         const textColor = isDarkTheme ? '#64748b' : '#231f20'
         let isSaved
-        const index = savedVideo.findIndex(
+        const index = savedVideos.findIndex(
           eachVideo => eachVideo.id === videoDetails.id,
         )
         if (index === -1) {

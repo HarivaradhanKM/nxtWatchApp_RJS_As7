@@ -58,10 +58,10 @@ class Home extends Component {
     const response = await fetch(url, options)
     if (response.ok) {
       const data = await response.json()
-      const updatedData = data.video.map(eachVideo => ({
+      const updatedData = data.videos.map(eachVideo => ({
         id: eachVideo.id,
         title: eachVideo.title,
-        thumbnailUrl: eachVideo.thumbnailUrl,
+        thumbnailUrl: eachVideo.thumbnail_url,
         viewCount: eachVideo.view_count,
         publishedAt: eachVideo.published_at,
         name: eachVideo.channel.name,
@@ -161,7 +161,7 @@ class Home extends Component {
                     type="search"
                     placeholder="Search"
                     value={searchInput}
-                    OnChange={this.onChangeInput}
+                    onChange={this.onChangeInput}
                     color={textColor}
                   />
                   <SearchIconContainer

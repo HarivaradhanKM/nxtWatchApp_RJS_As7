@@ -107,15 +107,15 @@ class NavigationBar extends Component {
                 <ContactHeading color={textColor}>CONTACT US</ContactHeading>
                 <ContactIcons>
                   <ContactImage
-                    src="https://assets.ccbp.in/frountend/react-js/nxt-watch-faceboox-logo-img.png"
+                    src="https://assets.ccbp.in/frontend/react-js/nxt-watch-facebook-logo-img.png "
                     alt="facebook logo"
                   />
                   <ContactImage
-                    src="https://assets.ccbp.in/frountend/react-js/nxt-watch-twitter-logo-img.png"
+                    src="https://assets.ccbp.in/frontend/react-js/nxt-watch-twitter-logo-img.png"
                     alt="twitter logo"
                   />
                   <ContactImage
-                    src="https://assets.ccbp.in/frountend/react-js/nxt-watch-linked-in-logo-img.png"
+                    src="https://assets.ccbp.in/frontend/react-js/nxt-watch-linked-in-logo-img.png"
                     alt="linked in logo"
                   />
                 </ContactIcons>
