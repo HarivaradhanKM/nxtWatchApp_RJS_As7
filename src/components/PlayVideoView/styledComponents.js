@@ -35,12 +35,11 @@ export const SocialButton = styled.button`
   justify-content: center;
   align-items: center;
   margin-right: 10px;
-  color: #2563eb;
   color: ${props => props.color};
 `
-export const ButtonText = styled.span`
+export const ButtonText = styled.p`
   margin-left: 5px;
-  color: #2563eb;
+  color: ${props => props.color};
   @media screen and (max-width: 576px) {
     display: none;
   }

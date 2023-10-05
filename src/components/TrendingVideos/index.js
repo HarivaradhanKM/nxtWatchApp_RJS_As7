@@ -91,7 +91,7 @@ class TrendingVideos extends Component {
 
   renderFailureView = () => <FailureView onRetry={this.onRetry} />
 
-  renderTrendingVideo = () => {
+  renderTrendingVideos = () => {
     const {apiStatus} = this.state
 
     switch (apiStatus) {
@@ -116,7 +116,7 @@ class TrendingVideos extends Component {
           const textColor = isDarkTheme ? '#f9f9f9' : '#231f20'
 
           return (
-            <div data-testid="trending">
+            <div>
               <Header />
               <NavigationBar />
               <TrendingContainer
@@ -130,7 +130,7 @@ class TrendingVideos extends Component {
                   </TitleIconContainer>
                   <TrendingText color={textColor}>Trending</TrendingText>
                 </TrendingVideoTitle>
-                {this.renderTrendingVideo()}
+                {this.renderTrendingVideos()}
               </TrendingContainer>
             </div>
           )

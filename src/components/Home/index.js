@@ -26,7 +26,7 @@ import {
 } from './styledComponents'
 
 const apiStatusConstants = {
-  initial: 'InITIAL',
+  initial: 'INITIAL',
   success: 'SUCCESS',
   failure: 'FAILURE',
   inProgress: 'IN_PROGRESS',

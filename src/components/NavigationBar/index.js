@@ -124,36 +124,6 @@ class NavigationBar extends Component {
                 </ContactNote>
               </ContactInfo>
             </NavigationLgContainer>
-            <NavigationSmallContainer bgColor={bgColor}>
-              <NavLink to="/">
-                <AiFillHome
-                  size={30}
-                  onClick={onClickTabHome}
-                  color={activeTab === 'Home' ? '#ff0b37' : '#909090'}
-                />
-              </NavLink>
-              <NavLink to="/trending">
-                <HiFire
-                  size={30}
-                  onClick={onClickTabTrending}
-                  color={activeTab === 'Trending' ? '#ff0b37' : '#909090'}
-                />
-              </NavLink>
-              <NavLink to="/gaming">
-                <SiYoutubegaming
-                  size={30}
-                  onClick={onClickTabGaming}
-                  color={activeTab === 'Gaming' ? '#ff0b37' : '#909090'}
-                />
-              </NavLink>
-              <NavLink to="/saved-videos">
-                <CgPlayListAdd
-                  size={30}
-                  onClick={onClickTabSaved}
-                  color={activeTab === 'Saved' ? '#ff0b37' : '#909090'}
-                />
-              </NavLink>
-            </NavigationSmallContainer>
           </NavBar>
         )
       }}

@@ -27,9 +27,11 @@ const HomeVideos = props => {
 
         return videosCount > 0 ? (
           <VideoCardList>
-            {homeVideos.map(eachVideo => (
-              <HomeVideoCard video={eachVideo} key={eachVideo.id} />
-            ))}
+            <ul>
+              {homeVideos.map(eachVideo => (
+                <HomeVideoCard video={eachVideo} key={eachVideo.id} />
+              ))}
+            </ul>
           </VideoCardList>
         ) : (
           <NoVideosView>
@@ -41,7 +43,7 @@ const HomeVideos = props => {
               No Search results found
             </NoVideosHeading>
             <NoVideosNote noteColor={noteColor}>
-              Try different keywords or remove search filter
+              Try different key words or remove search filter
             </NoVideosNote>
             <RetryButton type="button" onclick={onClickRetry}>
               Retry

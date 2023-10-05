@@ -34,7 +34,7 @@ export const GamingTitle = styled.p`
   color: ${props => props.color};
   margin-bottom: 0px;
 `
-export const GamingViewsAndData = styled.div`
+export const GamingViewsAndData = styled.p`
   font-family: 'Roboto';
   font-size: 15px;
   color: ${props => props.color};
